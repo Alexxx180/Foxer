@@ -67,6 +67,9 @@
     <Compile Include="Assets\Scenes\Scripts\CameraBind.cs" />
     <Compile Include="Assets\Scenes\Scripts\CharacterController2D.cs" />
     <Compile Include="Assets\Scenes\Scripts\DieSpace.cs" />
+    <Compile Include="Assets\Scenes\Scripts\Menus\Loging\LogIn.cs" />
+    <Compile Include="Assets\Scenes\Scripts\Menus\Loging\SignIn.cs" />
+    <Compile Include="Assets\Scenes\Scripts\Menus\OpenMenu.cs" />
     <Compile Include="Assets\Scenes\Scripts\Movement.cs" />
     <Reference Include="UnityEngine">
       <HintPath>D:/Александр/Windows 7/Программы/Unity/Editors/2019.4.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
