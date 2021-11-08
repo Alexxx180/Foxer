@@ -24,5 +24,6 @@ public class CameraBind : MonoBehaviour
         temp.x = _trans.position.x;
         temp.y = _trans.position.y + 2;
         transform.position = temp;
+        //Write some code
     }
 }
