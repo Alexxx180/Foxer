@@ -65,6 +65,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scenes\Scripts\CameraBind.cs" />
+    <Compile Include="Assets\Scenes\Scripts\ChangeAct.cs" />
     <Compile Include="Assets\Scenes\Scripts\CharacterController2D.cs" />
     <Compile Include="Assets\Scenes\Scripts\DieSpace.cs" />
     <Compile Include="Assets\Scenes\Scripts\Menus\Loading\LoadLevels.cs" />
