@@ -14,9 +14,10 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
+        int run = Input.GetButton("Run") ? 2 : 1;
+        horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed * run;
         animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
+        
         if (Input.GetButtonDown("Jump"))
         {
             jump = true;
