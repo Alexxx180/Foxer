@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scenes\Scripts\ChangeAct.cs" />
     <Compile Include="Assets\Scenes\Scripts\CharacterController2D.cs" />
     <Compile Include="Assets\Scenes\Scripts\DieSpace.cs" />
+    <Compile Include="Assets\Scenes\Scripts\Exit.cs" />
     <Compile Include="Assets\Scenes\Scripts\Menus\Loading\LoadLevels.cs" />
     <Compile Include="Assets\Scenes\Scripts\Menus\Loging\LogIn.cs" />
     <Compile Include="Assets\Scenes\Scripts\Menus\Loging\SignIn.cs" />
