@@ -11,8 +11,6 @@ public class LoadLevels : MonoBehaviour
 
     // Start is called before the first frame update
     public float runSpeed = 40f;
-    bool jump = false;
-    bool crouch = false;
 
     float horizontalMove = 0f;
     private float _loadLevel = 0f;

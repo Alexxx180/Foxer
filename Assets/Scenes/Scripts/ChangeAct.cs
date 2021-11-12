@@ -1,9 +1,11 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 
 public class ChangeAct : MonoBehaviour
 {
     public GameObject previousAct;
     public GameObject nextAct;
+    public Text actName;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -11,6 +13,7 @@ public class ChangeAct : MonoBehaviour
         {
             nextAct.SetActive(true);
             previousAct.SetActive(false);
+            actName.text = nextAct.name;
         }
     }
 }

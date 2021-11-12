@@ -64,16 +64,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scenes\Scripts\BonusHP.cs" />
+    <Compile Include="Assets\Scenes\Scripts\BonusLife.cs" />
     <Compile Include="Assets\Scenes\Scripts\CameraBind.cs" />
     <Compile Include="Assets\Scenes\Scripts\ChangeAct.cs" />
     <Compile Include="Assets\Scenes\Scripts\CharacterController2D.cs" />
     <Compile Include="Assets\Scenes\Scripts\DieSpace.cs" />
     <Compile Include="Assets\Scenes\Scripts\Exit.cs" />
+    <Compile Include="Assets\Scenes\Scripts\HpControl.cs" />
     <Compile Include="Assets\Scenes\Scripts\Menus\Loading\LoadLevels.cs" />
     <Compile Include="Assets\Scenes\Scripts\Menus\Loging\LogIn.cs" />
     <Compile Include="Assets\Scenes\Scripts\Menus\Loging\SignIn.cs" />
     <Compile Include="Assets\Scenes\Scripts\Menus\OpenMenu.cs" />
     <Compile Include="Assets\Scenes\Scripts\Movement.cs" />
+    <Compile Include="Assets\Scenes\Scripts\Reload.cs" />
+    <Compile Include="Assets\Scenes\Scripts\Scoring.cs" />
+    <Compile Include="Assets\Scenes\Scripts\SecretBonus.cs" />
     <Reference Include="UnityEngine">
       <HintPath>D:/Александр/Windows 7/Программы/Unity/Editors/2019.4.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
