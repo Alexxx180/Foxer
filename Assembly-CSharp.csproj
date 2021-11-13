@@ -70,9 +70,11 @@
     <Compile Include="Assets\Scenes\Scripts\ChangeAct.cs" />
     <Compile Include="Assets\Scenes\Scripts\CharacterController2D.cs" />
     <Compile Include="Assets\Scenes\Scripts\DieSpace.cs" />
+    <Compile Include="Assets\Scenes\Scripts\Enemies\DestinationPoints.cs" />
     <Compile Include="Assets\Scenes\Scripts\Enemies\EnemyAI.cs" />
     <Compile Include="Assets\Scenes\Scripts\Enemies\EnemyDamage.cs" />
     <Compile Include="Assets\Scenes\Scripts\Enemies\EnemyGFX.cs" />
+    <Compile Include="Assets\Scenes\Scripts\Enemies\EnemyHealth.cs" />
     <Compile Include="Assets\Scenes\Scripts\Exit.cs" />
     <Compile Include="Assets\Scenes\Scripts\HpControl.cs" />
     <Compile Include="Assets\Scenes\Scripts\Menus\Loading\LoadLevels.cs" />
