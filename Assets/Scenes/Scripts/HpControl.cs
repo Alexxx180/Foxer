@@ -27,6 +27,11 @@ public class HpControl : MonoBehaviour
             hp.value++;
     }
 
+    public void Hurt()
+    {
+        hp.value--;
+    }
+
     public void FullHeal()
     {
         hp.value = hp.maxValue;

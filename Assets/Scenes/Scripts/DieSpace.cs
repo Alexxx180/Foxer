@@ -10,8 +10,22 @@ public class DieSpace : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            collision.transform.position = respawn.transform.position;
-            hp.value--;
+            collision.transform.position = PlayerRespawn();
+        }
+    }
+
+    private Vector3 PlayerRespawn()
+    {
+        hp.value--;
+        return respawn.transform.position;
+    }
+
+    public void Update()
+    {
+        if (Input.GetButtonDown("Forget"))
+        {
+            GameObject player = GameObject.FindGameObjectWithTag("Player");
+            player.transform.position = PlayerRespawn();
         }
     }
 }
