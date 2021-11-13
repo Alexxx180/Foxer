@@ -11,7 +11,7 @@ public class EnemyAI : MonoBehaviour
 
     Path path;
     int currentWayPoint = 0;
-    bool reachedEndOfPath = false;
+    //bool reachedEndOfPath = false;
 
     public Transform enemyGFX;
 
@@ -48,13 +48,15 @@ public class EnemyAI : MonoBehaviour
         if (path == null)
             return;
         if (currentWayPoint >= path.vectorPath.Count)
-        {
-            reachedEndOfPath = true;
             return;
-        } else
-        {
-            reachedEndOfPath = false;
-        }
+        //if (currentWayPoint >= path.vectorPath.Count)
+        //{
+        //    reachedEndOfPath = true;
+        //    return;
+        //} else
+        //{
+        //    reachedEndOfPath = false;
+        //}
 
         Vector2 direction = ((Vector2)path.vectorPath[currentWayPoint] - rb.position).normalized;
         Vector2 force = direction * speed * Time.deltaTime;

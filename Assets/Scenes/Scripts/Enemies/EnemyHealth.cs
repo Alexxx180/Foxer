@@ -13,7 +13,7 @@ public class EnemyHealth : MonoBehaviour
             rigidbody2D.AddForce(new Vector2(0f, bounce));
             hitPoints--;
             if (hitPoints <= 0)
-                Destroy(gameObject);
+                Destroy(gameObject.transform.parent.gameObject);
         }
     }
 }
