@@ -64,31 +64,28 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scenes\Scripts\Bonuses\BonusHP.cs" />
-    <Compile Include="Assets\Scenes\Scripts\Bonuses\BonusLife.cs" />
-    <Compile Include="Assets\Scenes\Scripts\Bonuses\Scoring.cs" />
-    <Compile Include="Assets\Scenes\Scripts\Bonuses\SecretBonus.cs" />
-    <Compile Include="Assets\Scenes\Scripts\Bonuses\SecretRevealed.cs" />
-    <Compile Include="Assets\Scenes\Scripts\Enemies\BossHpInfo.cs" />
-    <Compile Include="Assets\Scenes\Scripts\Enemies\DestinationPoints.cs" />
-    <Compile Include="Assets\Scenes\Scripts\Enemies\EnemyAI.cs" />
-    <Compile Include="Assets\Scenes\Scripts\Enemies\EnemyDamage.cs" />
-    <Compile Include="Assets\Scenes\Scripts\Enemies\EnemyGFX.cs" />
-    <Compile Include="Assets\Scenes\Scripts\Enemies\EnemyHealth.cs" />
-    <Compile Include="Assets\Scenes\Scripts\Menus\Loading\LoadLevels.cs" />
-    <Compile Include="Assets\Scenes\Scripts\Menus\Loging\LogIn.cs" />
-    <Compile Include="Assets\Scenes\Scripts\Menus\Loging\SignIn.cs" />
-    <Compile Include="Assets\Scenes\Scripts\Menus\OpenMenu.cs" />
-    <Compile Include="Assets\Scenes\Scripts\Misc\Activation.cs" />
-    <Compile Include="Assets\Scenes\Scripts\Misc\ChangeAct.cs" />
-    <Compile Include="Assets\Scenes\Scripts\Misc\DieSpace.cs" />
-    <Compile Include="Assets\Scenes\Scripts\Misc\Exit.cs" />
-    <Compile Include="Assets\Scenes\Scripts\Misc\Reload.cs" />
-    <Compile Include="Assets\Scenes\Scripts\Player\Achievements.cs" />
-    <Compile Include="Assets\Scenes\Scripts\Player\CameraBind.cs" />
-    <Compile Include="Assets\Scenes\Scripts\Player\CharacterController2D.cs" />
-    <Compile Include="Assets\Scenes\Scripts\Player\HpControl.cs" />
-    <Compile Include="Assets\Scenes\Scripts\Player\Movement.cs" />
+    <Compile Include="Assets\Scripts\Bonuses\BonusHP.cs" />
+    <Compile Include="Assets\Scripts\Bonuses\BonusLife.cs" />
+    <Compile Include="Assets\Scripts\Bonuses\Scoring.cs" />
+    <Compile Include="Assets\Scripts\Bonuses\SecretBonus.cs" />
+    <Compile Include="Assets\Scripts\Bonuses\SecretRevealed.cs" />
+    <Compile Include="Assets\Scripts\Enemies\BossHpInfo.cs" />
+    <Compile Include="Assets\Scripts\Enemies\DestinationPoints.cs" />
+    <Compile Include="Assets\Scripts\Enemies\EnemyAI.cs" />
+    <Compile Include="Assets\Scripts\Enemies\EnemyDamage.cs" />
+    <Compile Include="Assets\Scripts\Enemies\EnemyGFX.cs" />
+    <Compile Include="Assets\Scripts\Enemies\EnemyHealth.cs" />
+    <Compile Include="Assets\Scripts\Menus\OpenMenu.cs" />
+    <Compile Include="Assets\Scripts\Misc\Activation.cs" />
+    <Compile Include="Assets\Scripts\Misc\ChangeAct.cs" />
+    <Compile Include="Assets\Scripts\Misc\DieSpace.cs" />
+    <Compile Include="Assets\Scripts\Misc\Exit.cs" />
+    <Compile Include="Assets\Scripts\Misc\Reload.cs" />
+    <Compile Include="Assets\Scripts\Player\Achievements.cs" />
+    <Compile Include="Assets\Scripts\Player\CameraBind.cs" />
+    <Compile Include="Assets\Scripts\Player\CharacterController2D.cs" />
+    <Compile Include="Assets\Scripts\Player\HpControl.cs" />
+    <Compile Include="Assets\Scripts\Player\Movement.cs" />
     <Reference Include="UnityEngine">
       <HintPath>D:/Александр/Windows 7/Программы/Unity/Editors/2019.4.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -272,11 +269,11 @@
     <Reference Include="UnityEditor">
       <HintPath>D:/Александр/Windows 7/Программы/Unity/Editors/2019.4.17f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
-    <Reference Include="Pathfinding.Ionic.Zip.Reduced">
-      <HintPath>D:/Aleksandr/Windows-7/misc/Games/Develop/Foxer/Assets/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
-    </Reference>
     <Reference Include="nunit.framework">
       <HintPath>D:/Aleksandr/Windows-7/misc/Games/Develop/Foxer/Library/PackageCache/com.unity.ext.nunit@1.0.5/net35/unity-custom/nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Pathfinding.Ionic.Zip.Reduced">
+      <HintPath>D:/Aleksandr/Windows-7/misc/Games/Develop/Foxer/Assets/Imports/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>D:/Александр/Windows 7/Программы/Unity/Editors/2019.4.17f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

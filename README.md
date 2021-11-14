@@ -1,3 +1,3 @@
 # Foxer
 
-Research repo to find out how to make 2d platformers
+A 2D platormer about Foxer adventures. Powered by Unity™.
