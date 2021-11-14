@@ -64,29 +64,31 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scenes\Scripts\BonusHP.cs" />
-    <Compile Include="Assets\Scenes\Scripts\BonusLife.cs" />
-    <Compile Include="Assets\Scenes\Scripts\CameraBind.cs" />
-    <Compile Include="Assets\Scenes\Scripts\ChangeAct.cs" />
-    <Compile Include="Assets\Scenes\Scripts\CharacterController2D.cs" />
-    <Compile Include="Assets\Scenes\Scripts\DieSpace.cs" />
+    <Compile Include="Assets\Scenes\Scripts\Bonuses\BonusHP.cs" />
+    <Compile Include="Assets\Scenes\Scripts\Bonuses\BonusLife.cs" />
+    <Compile Include="Assets\Scenes\Scripts\Bonuses\Scoring.cs" />
+    <Compile Include="Assets\Scenes\Scripts\Bonuses\SecretBonus.cs" />
+    <Compile Include="Assets\Scenes\Scripts\Bonuses\SecretRevealed.cs" />
     <Compile Include="Assets\Scenes\Scripts\Enemies\BossHpInfo.cs" />
     <Compile Include="Assets\Scenes\Scripts\Enemies\DestinationPoints.cs" />
     <Compile Include="Assets\Scenes\Scripts\Enemies\EnemyAI.cs" />
     <Compile Include="Assets\Scenes\Scripts\Enemies\EnemyDamage.cs" />
     <Compile Include="Assets\Scenes\Scripts\Enemies\EnemyGFX.cs" />
     <Compile Include="Assets\Scenes\Scripts\Enemies\EnemyHealth.cs" />
-    <Compile Include="Assets\Scenes\Scripts\Exit.cs" />
-    <Compile Include="Assets\Scenes\Scripts\HpControl.cs" />
     <Compile Include="Assets\Scenes\Scripts\Menus\Loading\LoadLevels.cs" />
     <Compile Include="Assets\Scenes\Scripts\Menus\Loging\LogIn.cs" />
     <Compile Include="Assets\Scenes\Scripts\Menus\Loging\SignIn.cs" />
     <Compile Include="Assets\Scenes\Scripts\Menus\OpenMenu.cs" />
     <Compile Include="Assets\Scenes\Scripts\Misc\Activation.cs" />
-    <Compile Include="Assets\Scenes\Scripts\Movement.cs" />
-    <Compile Include="Assets\Scenes\Scripts\Reload.cs" />
-    <Compile Include="Assets\Scenes\Scripts\Scoring.cs" />
-    <Compile Include="Assets\Scenes\Scripts\SecretBonus.cs" />
+    <Compile Include="Assets\Scenes\Scripts\Misc\ChangeAct.cs" />
+    <Compile Include="Assets\Scenes\Scripts\Misc\DieSpace.cs" />
+    <Compile Include="Assets\Scenes\Scripts\Misc\Exit.cs" />
+    <Compile Include="Assets\Scenes\Scripts\Misc\Reload.cs" />
+    <Compile Include="Assets\Scenes\Scripts\Player\Achievements.cs" />
+    <Compile Include="Assets\Scenes\Scripts\Player\CameraBind.cs" />
+    <Compile Include="Assets\Scenes\Scripts\Player\CharacterController2D.cs" />
+    <Compile Include="Assets\Scenes\Scripts\Player\HpControl.cs" />
+    <Compile Include="Assets\Scenes\Scripts\Player\Movement.cs" />
     <Reference Include="UnityEngine">
       <HintPath>D:/Александр/Windows 7/Программы/Unity/Editors/2019.4.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

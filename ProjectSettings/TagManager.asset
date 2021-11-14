@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Barrier
   - Enemy
+  - BigGem
   layers:
   - Default
   - TransparentFX
