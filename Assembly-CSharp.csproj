@@ -82,6 +82,7 @@
     <Compile Include="Assets\Scenes\Scripts\Menus\Loging\LogIn.cs" />
     <Compile Include="Assets\Scenes\Scripts\Menus\Loging\SignIn.cs" />
     <Compile Include="Assets\Scenes\Scripts\Menus\OpenMenu.cs" />
+    <Compile Include="Assets\Scenes\Scripts\Misc\Activation.cs" />
     <Compile Include="Assets\Scenes\Scripts\Movement.cs" />
     <Compile Include="Assets\Scenes\Scripts\Reload.cs" />
     <Compile Include="Assets\Scenes\Scripts\Scoring.cs" />
